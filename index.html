@@ -6,44 +6,48 @@
     <title>Alesh</title>
     <meta name="Alesh" content="This is my portfolio with some of my graphic design work!">
 <style>
-    body {
-        background-color: hsl(109, 13%, 17%);
-        color: #597956;
-        font-family: Arial, sans-serif;
-    }
-    h1 {
-        border: double 3px #597956;
-        width: fit-content;
-        margin: auto;
-        color: #597956;
-        text-align: center;
-        padding: 10px;
-    }
-    hr {
-        color: gray;
-    }
-    section {
-        max-width: 1260px; /* Set maximum width for the images */
-        margin: auto; /* Center the section */
-        padding: 20px 0; /* Add space around the section */
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around; /* Distribute rows evenly */
-    }
-    .row {
-        display: flex;
-        justify-content: space-around;
-        width: 100%; /* Each row takes up full width */
-        margin-bottom: 20px; /* Add space between rows */
-    }
-    img {
-        width: calc(33.33% - 10px); /* Calculate image width for 3 images per row */
-        max-width: 400px; /* Set maximum width for each image */
-        height: auto; /* Maintain aspect ratio */
-        margin-bottom: 10px; /* Add space below images */
-        box-sizing: border-box; /* Include padding in width calculation */
-    }
+        body {
+            background-color: hsl(109, 13%, 17%);
+            color: #597956;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            border: double 3px #597956;
+            width: fit-content;
+            margin: auto;
+            color: #597956;
+            text-align: center;
+            padding: 10px;
+        }
+        hr {
+            color: gray;
+        }
+        section {
+            max-width: 1260px; /* Set maximum width for the images */
+            margin: auto; /* Center the section */
+            padding: 20px 0; /* Add space around the section */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Distribute rows evenly */
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            width: 100%; /* Each row takes up full width */
+            margin-bottom: 20px; /* Add space between rows */
+        }
+        img {
+            width: calc((100% - 20px) / 3); /* Calculate image width for 3 images per row with padding */
+            max-width: none; /* Remove maximum width constraint */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 10px; /* Add space below images */
+            box-sizing: border-box; /* Include padding in width calculation */
+            padding: 0 10px; /* Add horizontal padding between images */
+        }
 </style>
+    
 </head>
 <body style="background-color: hsl(109, 13%, 17%);">
     <h1 style="border: double 3px #597956; width: fit-content; margin: auto;; color:#597956; text-align:center;">Aleshy's portfolio</h1>
@@ -83,9 +87,9 @@
             </div>
         </section>
         <hr>
-        <!--Constelations-->
+        <!--whatever this is-->
         <section>
-            
+            <img src="img/рслжчсм.jpg" alt="Botanicula-like world" style="width: 1269px; height: 1200px;">
         </section>
                 
     </div>
