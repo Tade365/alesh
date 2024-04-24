@@ -5,9 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alesh</title>
     <meta name="Alesh" content="This is my portfolio with some of my graphic design work!">
+<style>
+    body {
+        background-color: hsl(109, 13%, 17%);
+        color: #597956;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        border: double 3px #597956;
+        width: fit-content;
+        margin: auto;
+        color: #597956;
+        text-align: center;
+        padding: 10px;
+    }
+    hr {
+        color: gray;
+    }
+    section {
+        max-width: 1260px; /* Set maximum width for the images */
+        margin: auto; /* Center the section */
+        padding: 20px 0; /* Add space around the section */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Distribute rows evenly */
+    }
+    .row {
+        display: flex;
+        justify-content: space-around;
+        width: 100%; /* Each row takes up full width */
+        margin-bottom: 20px; /* Add space between rows */
+    }
+    img {
+        width: calc(33.33% - 10px); /* Calculate image width for 3 images per row */
+        max-width: 400px; /* Set maximum width for each image */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 10px; /* Add space below images */
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+</style>
 </head>
-<body style="background-color: #273025;">
-    <h1 style="border: dashed; color: #597956;">Aleshy's portfolio</h1>
+<body style="background-color: hsl(109, 13%, 17%);">
+    <h1 style="border: double 3px #597956; width: fit-content; margin: auto;; color:#597956; text-align:center;">Aleshy's portfolio</h1>
+    <hr style="color:gray">
+    
+    <div>
+        <!--This is inktober 1-12-->
+        <section>
+            <div class="row">
+                <img src="img/Ink1.Crystal.jpg" alt="Inktober Crystal" style="width: 420px; height: 600px;">
+                <img src="img/Ink2.Suit.jpg" alt="Inktober Suit" style="width: 420px; height: 600px;">
+                <img src="img/Ink3.Vessel.jpg" alt="Inktober Vessel" style="width: 420px; height: 600px;">
+            </div>
+            <div class="row">
+                <img src="img/Ink4. Knot.jpg" alt="Inktober Knot" style="width: 420px; height: 600px;">
+                <img src="img/Ink5. Raven2.jpg" alt="Inktober Raven" style="width: 420px; height: 600px;">
+                <img src="img/Ink6. Spirit.jpg" alt="Inktober Spirit" style="width: 420px; height: 600px;">
+            </div>
+            <div class="row">
+                <img src="img/Ink7. Fan.jpg" alt="Inktober Fan" style="width: 420px; height: 600px;">
+                <img src="img/Ink8. Watch.jpg" alt="Inktober Watch" style="width: 420px; height: 600px;">
+                <img src="img/Ink9. Pressure.jpg" alt="Inktober Pressure" style="width: 420px; height: 600px;">
+            </div>
+            <div class="row">
+                <img src="img/Ink10. Pick.jpg" alt="Inktober Pick" style="width: 420px; height: 600px;">
+                <img src="img/Ink11. Sour.jpg" alt="Inktober Sour" style="width: 420px; height: 600px;">
+                <img src="img/Ink12. Stuck.jpg" alt="Inktober Stuck" style="width: 420px; height: 600px;">
+            </div>
+        </section>
+        <hr>
+        <section>
+            
+        </section>
+                
+    </div>
 </body>
 
 
