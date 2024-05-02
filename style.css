@@ -1,0 +1,55 @@
+body {
+    background-color: hsl(109, 13%, 17%);
+    color: #597956;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    border: inset 5px #597956;
+    width: fit-content;
+    margin: auto;
+    color: #597956;
+    text-align: center;
+    padding: 10px;
+    font-family:  "DaxlinePro-Black" ;
+    font-size: 44px;
+}
+hr {
+    color: gray;
+}
+section {
+    max-width: 1260px; /* Set maximum width for the images */
+    margin: auto; /* Center the section */
+    padding: 20px 0; /* Add space around the section */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute rows evenly */
+}
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Each row takes up full width */
+    margin-bottom: 20px; /* Add space between rows */
+}
+img {
+    width: calc((100% - 20px) / 3); /* Calculate image width for 3 images per row with padding */
+    max-width: none; /* Remove maximum width constraint */ 
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space below images */
+    box-sizing: border-box; /* Include padding in width calculation */
+    padding: 0 10px; /* Add horizontal padding between images */
+
+}
+
+h2{
+    text-align: center;
+}
+#mail{
+    font-size: 22px; 
+    text-align: center;
+}
+@font-face {
+    font-family: DaxlinePro-Black;
+    src: url(https://github.com/Tade365/alesh/blob/main/DAXLINEPRO-BLACK.OTF);
+  }

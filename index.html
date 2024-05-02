@@ -5,59 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alesh</title>
     <meta name="Alesh" content="This is my portfolio with some of my graphic design work!">
-    <meta property="logo.jpg" content="img/logo.jpg">
-<style>
-        body {
-            background-color: hsl(109, 13%, 17%);
-            color: #597956;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            border: double 3px #597956;
-            width: fit-content;
-            margin: auto;
-            color: #597956;
-            text-align: center;
-            padding: 10px;
-        }
-        hr {
-            color: gray;
-        }
-        section {
-            max-width: 1260px; /* Set maximum width for the images */
-            margin: auto; /* Center the section */
-            padding: 20px 0; /* Add space around the section */
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around; /* Distribute rows evenly */
-        }
-        .row {
-            display: flex;
-            justify-content: center;
-            width: 100%; /* Each row takes up full width */
-            margin-bottom: 20px; /* Add space between rows */
-        }
-        img {
-            width: calc((100% - 20px) / 3); /* Calculate image width for 3 images per row with padding */
-            max-width: none; /* Remove maximum width constraint */
-            height: auto; /* Maintain aspect ratio */
-            margin-bottom: 10px; /* Add space below images */
-            box-sizing: border-box; /* Include padding in width calculation */
-            padding: 0 10px; /* Add horizontal padding between images */
-        }
-</style>
-    
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="img/icon.png" type="image/png">   
 </head>
-<main>
-    <body style="background-color: hsl(109, 13%, 17%);">
+<body>
+    <main>
         <div>
             <br>
-            <h1 style="border: inset 5px #597956; width: fit-content; margin: auto;; color:#597956; text-align:center;">Aleshy's portfolio</h1><br>
-            <hr style="color:gray">
+            <h1>Aleshy's portfolio</h1><br>
+            <hr>
         </div>
-        <div>
+        <div class="image">
             <!--This is inktober 1-12-->
             <section>
                 <div class="row">
@@ -125,12 +83,12 @@
             </section>
             <hr>        
         </div>
-    </body>
-</main>
+    </main>
+</body>
 <footer>
     <div>
-        <h2 style="text-align: center;"><strong>CONTACTS</strong></h2>
-        <p style="font-size: 22px; text-align: center;">email</p><br>
+        <h2><strong>CONTACTS</strong></h2>
+        <p id="mail">email</p><br>
     </div>
 </footer>
 
